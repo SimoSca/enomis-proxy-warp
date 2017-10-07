@@ -1,0 +1,33 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "Simple Proxy to override remote files with locals via browsersync server.",
+  "main": "index.php",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "commander": "^2.11.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "files": [
+    "index.js",
+    "bin",
+    "lib"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "enproxy": "./bin/enproxy.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp watch",
+    "go": "enproxy ciao bello"
+  },
+  "author": "Simone Scardoni <scardoni.simone@gmail.com>",
+  "license": "MIT"
+}
