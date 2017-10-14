@@ -15,7 +15,7 @@ const { startProxy } = require('../index');
 
 
 program
-    .version('0.0.1')
+    .version('1.0.3')
     .description('Contact management system');
 
 program
@@ -27,5 +27,12 @@ program
         startProxy(executionPath)
     });
 
+
+program 
+    .command('test')
+    .description('Simple echo test')
+    .action( () => {
+        console.log('I say "test" ok!')
+    });
 
 program.parse(process.argv);
