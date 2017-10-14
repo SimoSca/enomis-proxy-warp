@@ -6,10 +6,6 @@ Simple package to
 
 
 
-
-
-
-
 INSTALL
 -------
 
