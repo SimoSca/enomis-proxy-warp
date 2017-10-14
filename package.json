@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "enomis-proxy-warp",
   "version": "1.0.0",
   "description": "Simple Proxy to override remote files with locals via browsersync server.",
   "main": "index.php",
@@ -28,6 +28,10 @@
     "start": "gulp watch",
     "go": "enproxy ciao bello"
   },
-  "author": "Simone Scardoni <scardoni.simone@gmail.com>",
+  "keywords":[
+    "demo",
+    "test"
+  ],
+  "author": "Enomis <inodracs.enomis@gmail.com>",
   "license": "MIT"
 }
