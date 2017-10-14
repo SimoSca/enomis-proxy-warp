@@ -7,6 +7,8 @@ Add patch:
 npm version patch
 ```
 
+or `major` or `minor`.
+
 this will also add a tag into my version controll.
 
 Install it globally:
